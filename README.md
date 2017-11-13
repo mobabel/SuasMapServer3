@@ -129,7 +129,7 @@ $wmsmetadata['ServerHost'] 				= 'http://localhost/suas3/';
 
 run http://localhost/SuasMapServer3/install.php and following the wizard.
 
-Some test data such as shape file, svg are available under SuasMapServer3/data
+Some test data such as shape file, svg are available under SuasMapServer3/test_data
 
 
 ### Tutorial
