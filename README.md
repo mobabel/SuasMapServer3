@@ -113,6 +113,17 @@ parsing the DBF file when inputting Shapefile data
 
 
 ### Install
+
+edit SuasMapServer3/config.php and change the following parameters with yours
+
+```php
+$servername = 'localhost';
+$username   = 'root';
+$password   = 'test';
+$dbname     = 'rr';
+```
+
+
 run http://localhost/SuasMapServer3/install.php and following the wizard.
 
 
