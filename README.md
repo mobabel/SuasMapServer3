@@ -117,4 +117,4 @@ run http://localhost/SuasMapServer3/install.php and following the wizard.
 
 
 
-![Demo 1](https://raw.githubusercontent.com/mobabel/Image2Text/master/demo1.png "Demo 1")
+![Demo ](https://raw.githubusercontent.com/mobabel/SuasMapServer3/master/demo.gif "Demo ")
