@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>jln_kedua</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>jln_kedua_Style_Rule</Name>
+          <Title>jln_kedua Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#009700</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>jln_ketiga</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>jln_ketiga_Style_Rule</Name>
+          <Title>jln_ketiga Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#0000bf</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>jln_persekutuan</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>jln_persekutuan_Style_Rule</Name>
+          <Title>jln_persekutuan Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ff6a50</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>kemudahan</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>kemudahan_Style_Rule</Name>
+          <Title>kemudahan Style Rule</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke-opacity">100</CssParameter>
+                </Stroke>
+                <Fill>
+                  <CssParameter name="fill">#f7009a</CssParameter>
+                  <CssParameter name="fill-opacity">100</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>1</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>kesihatan</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>kesihatan_Style_Rule</Name>
+          <Title>kesihatan Style Rule</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffdf</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ffffcf</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>komersial</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>komersial_Style_Rule</Name>
+          <Title>komersial Style Rule</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#dfffff</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#dfffff</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

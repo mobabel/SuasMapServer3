@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>roads</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>roads_Style_Rule</Name>
+          <Title>roads Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#b70000</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>natural_park</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>natural_park_Style_Rule</Name>
+          <Title>natural_park Style Rule</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#38ff48</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>roads_footway</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>roads_footway_Style_Rule</Name>
+          <Title>roads_footway Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#2620ff</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>roads_primary</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>roads_primary_Style_Rule</Name>
+          <Title>roads_primary Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ff5520</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

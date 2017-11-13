@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>autobahnen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>autobahnen_Style_Rule</Name>
+          <Title>autobahnen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#FFDF00</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>bundesstrassen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>bundesstrassen_Style_Rule</Name>
+          <Title>bundesstrassen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#E6E81C</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>buslinien</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>buslinien_Style_Rule</Name>
+          <Title>buslinien Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#AD0505</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>deutsche_bahn</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>deutsche_bahn_Style_Rule</Name>
+          <Title>deutsche_bahn Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#dfffff</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#dfffff</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>flughafen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>flughafen_Style_Rule</Name>
+          <Title>flughafen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#b7b7b7</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#b7b7b7</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>friedhof</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>friedhof_Style_Rule</Name>
+          <Title>friedhof Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#BCD85F</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#BCD85F</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>gruenflaechen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>gruenflaechen_Style_Rule</Name>
+          <Title>gruenflaechen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#BCD85F</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#BCD85F</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>oeffentliche_gebaeude</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>oeffentliche_gebaeude_Style_Rule</Name>
+          <Title>oeffentliche_gebaeude Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#F47920</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#F47920</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>orte</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>orte_Style_Rule</Name>
+          <Title>orte Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFE6CB</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#FFE6CB</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>orte_texte</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>orte_texte_Style_Rule</Name>
+          <Title>orte_texte Style Rule</Title>
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName></ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">8</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+            </Fill>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>private_gebaeude</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>private_gebaeude_Style_Rule</Name>
+          <Title>private_gebaeude Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FCBC86</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#FCBC86</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>s_bahn</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>s_bahn_Style_Rule</Name>
+          <Title>s_bahn Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#1FCD1F</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>sonstige_gebaeude</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>sonstige_gebaeude_Style_Rule</Name>
+          <Title>sonstige_gebaeude Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#C7C8CA</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>sportflaechen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>sportflaechen_Style_Rule</Name>
+          <Title>sportflaechen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#9DD29C</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#9DD29C</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>strassen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>strassen_Style_Rule</Name>
+          <Title>strassen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#808080</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>u_bahn</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>u_bahn_Style_Rule</Name>
+          <Title>u_bahn Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#25309B</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>ueberoertliche_strassen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>ueberoertliche_strassen_Style_Rule</Name>
+          <Title>ueberoertliche_strassen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#FFF200</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>wald</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>wald_Style_Rule</Name>
+          <Title>wald Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#B4DDC0</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#B4DDC0</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>wasserflaechen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>wasserflaechen_Style_Rule</Name>
+          <Title>wasserflaechen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ABE1FA</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#ABE1FA</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

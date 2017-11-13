@@ -1,0 +1,87 @@
+.container
+{
+	position:absolute;
+	top:0;
+	left:0;
+	margin-top:240px;
+	margin-left:33%;
+	margin-right:8%;
+	width:600px;
+	height:450px;
+	border:1px solid #000000;
+	background-color: white;
+}
+
+.drag
+{
+	position:absolute;
+	left: 10px;
+	top: 20px;
+	width: 60%;
+	margin-left:-1px;
+	margin-top:-1px;
+	background-color:#EFEFEF;
+	cursor:move;
+
+}
+
+.drag .title
+{
+	padding:5px;
+	font-family:arial, garamond, sans-serif;
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	background-color:#FDF0DB;
+	border:1px solid #F4BD60;
+}
+
+.drag .content
+{
+	padding:5px;
+	font-family:arial, garamond, sans-serif;
+	color:#9F9F9F;
+	font-size:10px;
+	background-color:#EFEFEF;
+	border:1px solid #8F8F8F;
+	border-top-width:0px;
+	height: 200px;
+}
+.tablecontainer
+{
+	border:0;
+	background-color:#FFFFFF;
+	width:100%;
+	color: red;
+	font-size:20px;
+}
+/*
+.dragDiv
+{
+	-moz-user-select:none;
+	position:absolute;
+	border:1px double #000;
+	background-color:buttonface;
+	width:200px;
+	height:100px;
+	color:#CC0000;
+	text-align:center;
+
+	cursor: default;
+	width: 468px;
+	height: 266px;
+	left: 114px;
+	top: 273px;
+}
+#dragDiv
+{
+	-moz-user-select:none;
+	position:absolute;
+	border:1px double #000;
+	background-color:buttonface;
+	width:200px;
+	height:100px;
+	color:#CC0000;
+	text-align:center;
+}
+*/

@@ -1,0 +1,3 @@
+PDFlib license file 1.0
+# Licensing information for PDFlib GmbH products
+PDFlib 6.0.3 X600605-009100-4ECA35-963814

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <Name>gewaesserflaechen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>gewaesserflaechen_Style_Rule</Name>
+          <Title>gewaesserflaechen Style Rule</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#8fbeff</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#6660ff</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>gewaesserlinien</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>gewaesserlinien_Style_Rule</Name>
+          <Title>gewaesserlinien Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#1e18ff</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>gruenflaechen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>gruenflaechen_Style_Rule</Name>
+          <Title>gruenflaechen Style Rule</Title>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#acff87</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#72ff68</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>poi</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>poi_Style_Rule</Name>
+          <Title>poi Style Rule</Title>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>square</WellKnownName>
+                <Stroke>
+                  <CssParameter name="stroke-opacity">100</CssParameter>
+                </Stroke>
+                <Fill>
+                  <CssParameter name="fill">#ff2828</CssParameter>
+                  <CssParameter name="fill-opacity">100</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>1</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+  <NamedLayer>
+    <Name>strassen</Name>
+    <UserStyle>
+      <Name>Default</Name>
+      <Title>Default</Title>
+      <IsDefault>1</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>strassen_Style_Rule</Name>
+          <Title>strassen Style Rule</Title>
+          <LineSymbolizer>
+            <Fill>
+              <CssParameter name="fill">-1</CssParameter>
+              <CssParameter name="fill-opacity">100</CssParameter>
+            </Fill>
+            <Stroke>
+              <CssParameter name="stroke">#fffeaf</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-opacity">100</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
