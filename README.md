@@ -114,17 +114,35 @@ parsing the DBF file when inputting Shapefile data
 
 ### Install
 
-edit SuasMapServer3/config.php and change the following parameters with yours
+edit SuasMapServer3/config.php and change the following parameters with yours:
 
 ```php
 $servername = 'localhost';
 $username   = 'root';
 $password   = 'test';
 $dbname     = 'rr';
+...
+$wmsmetadata['ServerHost'] 				= 'http://localhost/suas3/';
+...
 ```
 
 
 run http://localhost/SuasMapServer3/install.php and following the wizard.
+
+
+### Tutorial
+
+[Show Us Map! 30 Minutes to Build Your Own Map Server with SUAS MapServer 3][Tutorial_1]
+
+[Show Us Map! 45 Minutes to Build Your Own 3D City Map Server with SUAS MapServer 3][Tutorial_2]
+
+
+[Tutorial_1]:http://www.easywms.com/?q=show-us-map-30-minutes-build-your-own-map-server-suas-mapserver3
+
+[Tutorial_2]:http://www.easywms.com/?q=show-us-map-45-minutes-build-your-own-3d-city-map-server-suas-mapserver3
+
+
+
 
 
 
